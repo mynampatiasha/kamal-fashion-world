@@ -43,6 +43,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--nav-h) + 16px);
+  overflow-x: hidden;
 }
 
 body {
@@ -51,6 +52,7 @@ body {
   color: var(--ink);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 img { display: block; max-width: 100%; }
@@ -997,8 +999,9 @@ a  { text-decoration: none; color: inherit; }
 .cart-panel {
   position: fixed;
   top: 0;
-  right: -360px;
-  width: 340px;
+  right: -100%;
+  width: 100%;
+  max-width: 360px;
   height: 100dvh;
   background: var(--cream);
   border-left: 1px solid var(--border);
@@ -1204,7 +1207,7 @@ a  { text-decoration: none; color: inherit; }
 
 .checkout-modal {
   position: fixed; top: 50%; left: 50%; transform: translate(-50%, -48%) scale(0.96);
-  background: var(--white); width: 90%; max-width: 440px; border-radius: var(--radius-lg);
+  background: var(--white); width: 95%; max-width: 440px; border-radius: var(--radius-lg);
   box-shadow: var(--shadow-xl); z-index: 1001; opacity: 0; pointer-events: none;
   transition: all 0.3s; display: flex; flex-direction: column;
 }
