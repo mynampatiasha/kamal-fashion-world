@@ -357,7 +357,7 @@ function initCheckout() {
     text += `Shipping: ${shipping === 0 ? 'Free' : '₹' + shipping}\n`;
     text += `*Total: ₹${total.toLocaleString('en-IN')}*`;
     
-    const waUrl = `https://wa.me/919876543210?text=${encodeURIComponent(text)}`;
+    const waUrl = `https://wa.me/919840664633?text=${encodeURIComponent(text)}`;
     window.open(waUrl, '_blank');
     
     closeCheckout();
@@ -514,7 +514,7 @@ function handleFormSubmit(e) {
   text += `\n*Message*\n${message}\n`;
   if (isWhatsapp) text += `\n_(Customer is happy to be contacted on WhatsApp)_`;
 
-  const waUrl = `https://wa.me/919876543210?text=${encodeURIComponent(text)}`;
+  const waUrl = `https://wa.me/919840664633?text=${encodeURIComponent(text)}`;
   window.open(waUrl, '_blank');
   
   document.getElementById('contact-form').reset();
