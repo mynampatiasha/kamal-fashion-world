@@ -1,20 +1,32 @@
-# Kamal Fashion World
+# 👗 Kamal Fashion World
 
-Landing page for Kamal Fashion World, a men's, women's, and kids' clothing
-store in Purasaiwakkam, Chennai.
+`Static Site` `HTML/CSS/JS` `Fashion Retail`
 
-## Tech stack
+> Premium men's, women's & kids' collections in Purasaiwakkam, Chennai.
 
-Static HTML, CSS, and vanilla JavaScript — no build step, no framework.
+## What is this?
 
-## Structure
+A landing page for Kamal Fashion World, a clothing store in Purasaiwakkam,
+Chennai, showcasing men's, women's, and kids' collections.
 
-- `index.html` — the page
-- `index.css` — styles
-- `index.js` — page behavior
-- product and banner photos
+## ✨ Highlights
 
-## Running locally
+- 👨‍👩‍👧 Men's, women's, and kids' collection showcase
+- 🖼️ Product and banner photo gallery
+
+## 🛠️ Tech Stack
+
+Static **HTML**, **CSS**, and vanilla **JavaScript** — no build step, no framework.
+
+## 📁 Structure
+
+```
+index.html      # the page
+index.css        # styles
+index.js         # page behavior
+```
+
+## 🚀 Running Locally
 
 ```bash
 python -m http.server 8000
